@@ -2,15 +2,9 @@ import os
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 
-api_id = os.getenv("38855554")
-api_hash = os.getenv("be58dccadc5db92c02f36b9281fd07c4")
-session_string = os.getenv("1BVtsOGUBu21ctDA9Nx7
-2dpwyEhpX0PIf
-fJ
-хо4Q6mKvCх5Lr1bgN4хwIdVwvF4ТJPgMykuH4kHyNJ8FfaZPdąyіWWWе0AkMab2yd-еzsSBrPf_SYqDХЕ7gdВАрb05_
-_BRwMCqBHXc0bDpe_4r8-kS650pMmak5ENZWYB4tiIU_WIRNgINzKM
-_9fZ2GSNjK44n8tizL2ugcоSW₽tbZhyХd·9oXV5Bmх52JFmIОЕd16BtS2×HDI£wЕеubqіd9₽BAН£OуtCУvJ2ЕC-i0UTKаR_A3₽4dbХе_vnTIiiZw69mRHR-wFНgqoJv4nXvaPRLT6pjXpWdD_2Byt
-OPQqiR2sdY2usawpbwro=")
+api_id = os.getenv("YOUR_ID: ")
+api_hash = os.getenv("YOUR_HASH: ")
+session_string = os.getenv("YOUR_SESSION: ")
 
 if not api_id or not api_hash or not session_string:
     raise ValueError("Missing environment variables!")
